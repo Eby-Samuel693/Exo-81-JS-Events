@@ -1,7 +1,7 @@
 /* Modifier le code ci dessous */
 
-document.getElementById("bouton").("", function(){
-    alert('event déclenché')
-});
+document.getElementById("bouton").onmouseover = mafonction;
 
-
+function mafonction() {
+    alert("SURVOL");
+}
